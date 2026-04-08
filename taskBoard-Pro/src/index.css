@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main,
+section,
+nav {
+  padding: 16px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
